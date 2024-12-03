@@ -1,5 +1,5 @@
 module GenomicBreeding
-
-# Write your package code here.
-
+include("genomes.jl")
+include("sim.jl")
+export Simulate, Genomes, check
 end
